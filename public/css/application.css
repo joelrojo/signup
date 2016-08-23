@@ -1,0 +1,32 @@
+body {
+    background: url(../img/bg_sayagata.jpg) repeat;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.c-field {
+    border-width: 2px;
+}
+
+.c-field:focus {
+    border-color: #16a085;
+    box-shadow: none;
+}
+
+.ladda-button {
+    outline: none;
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.c-alerts__alert.zoomIn {
+  -moz-animation-duration: 0.2s;
+  -webkit-animation-duration: 0.2s;
+  animation-duration: 0.2s;
+  webkit-animation-duration: 0.2s;
+}
+
+.c-alerts__alert {
+    text-align: center;
+}
